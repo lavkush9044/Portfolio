@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202020;
+    padding: 30px;
+}
+
+
+/* =========================
+   RESUME
+========================= */
+
+.resume {
+    position: relative;
+    width: 794px;
+    min-height: 1123px;
+    margin: auto;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.18);
+}
+
+
+/* =========================
+   TOP HEADER
+========================= */
+
+.top-header {
+    height: 225px;
+    background: #303a4d;
+    position: relative;
+    border: 1px solid #303a4d;
+}
+
+.top-header h1 {
+    color: white;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 91px;
+    margin-left: 120px;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    width: 235px;
+    min-height: 898px;
+    background: #e5e5e5;
+    padding: 155px 25px 30px 25px;
+}
+
+
+/* =========================
+   PROFILE PHOTO
+========================= */
+
+.photo-box {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 25px;
+    top: -137px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #dddddd;
+    z-index: 5;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+
+/* =========================
+   SIDEBAR SECTION
+========================= */
+
+.side-section {
+    margin-bottom: 33px;
+}
+
+.side-section h2 {
+    color: #273247;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.line {
+    height: 1.5px;
+    background: #273247;
+    width: 100%;
+    margin: 7px 0 13px;
+}
+
+.side-section p {
+    font-size: 12.5px;
+    margin-bottom: 17px;
+    line-height: 1.45;
+    white-space: nowrap;
+}
+
+.icon {
+    display: inline-block;
+    width: 23px;
+    color: #273247;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+.side-section h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 18px 0 8px;
+}
+
+.side-section ul {
+    padding-left: 18px;
+}
+
+.side-section li {
+    font-size: 12px;
+    margin-bottom: 8px;
+    padding-left: 1px;
+}
+
+.languages {
+    margin-top: 15px;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+    position: absolute;
+    top: 225px;
+    left: 235px;
+    width: 559px;
+    min-height: 898px;
+    background: white;
+    padding: 42px 31px 30px 31px;
+}
+
+.main-section {
+    margin-bottom: 36px;
+}
+
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-heading h2 {
+    color: #263247;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.heading-icon {
+    width: 28px;
+    height: 28px;
+    background: #303a4d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+.project-square {
+    width: 28px;
+    height: 28px;
+    background: #303a4d;
+    flex-shrink: 0;
+}
+
+.main-line {
+    width: 100%;
+    height: 1.5px;
+    background: #777;
+    margin-top: 6px;
+}
+
+
+/* =========================
+   SECTION BODY
+========================= */
+
+.section-body {
+    margin-left: 43px;
+    margin-top: 17px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.objective .section-body p {
+    margin-bottom: 2px;
+}
+
+
+/* =========================
+   EDUCATION
+========================= */
+
+.education {
+    margin-top: 2px;
+    margin-bottom: 43px;
+}
+
+.education-item {
+    margin-bottom: 23px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.education-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.education-title strong {
+    font-weight: 700;
+}
+
+.education-title span {
+    font-weight: 400;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.education-bottom {
+    margin-top: 4px;
+}
+
+
+/* =========================
+   PROJECT
+========================= */
+
+.projects {
+    margin-top: 2px;
+}
+
+.project-body h3 {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.project-body ul {
+    padding-left: 17px;
+}
+
+.project-body li {
+    margin-bottom: 4px;
+    padding-left: 2px;
+    line-height: 1.35;
+}
+
+
+/* =========================
+   SIGNATURE
+========================= */
+
+.signature {
+    position: absolute;
+    right: 30px;
+    bottom: 36px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* =========================
+   PRINT
+========================= */
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+    .resume {
+        width: 210mm;
+        min-height: 297mm;
+        box-shadow: none;
+        margin: 0;
+    }
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media screen and (max-width: 850px) {
+    body {
+        padding: 10px;
+        overflow-x: auto;
+    }
+    .resume {
+        transform-origin: top left;
+    }
+}

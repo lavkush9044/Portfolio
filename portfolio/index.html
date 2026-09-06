@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .parent {
+            background-color: rgb(41, 110, 170);
+            height: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .logo {
+            color: greenyellow;
+            font-size: 30px;
+            font-weight: 900px;
+        }
+        
+        li {
+            display: inline-block;
+        }
+        
+        li a {
+            color: white;
+            font-size: 30px;
+            margin-right: 30px;
+        }
+        
+        li a:hover {
+            color: aqua;
+        }
+        
+        button {
+            background-color: rgb(115, 234, 115);
+            color: blue;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 2px;
+        }
+        
+        button:hover {
+            background-color: red;
+            color: aqua;
+        }
+        
+        .img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+        
+        .img2 {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            padding: 20px;
+        }
+        
+        .home-content {
+            height: 150vh;
+            background-color: #0F172A;
+        }
+        
+        .home {
+            /* height: 100vh;
+            background-color: #0F172A; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 15px 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        @media(max-width:768px) {
+            .box {
+                background-color: red;
+            }
+        }
+        
+        h1 {
+            color: white;
+            margin-left: 20px;
+            font-size: 60px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: #60A5FA;
+        }
+        
+        p {
+            color: white;
+        }
+        
+        .about {
+            height: 100vh;
+            background-color: #334155;
+        }
+        
+        #about {
+            text-align: center;
+            padding: 80px 100px;
+            background-color: #1E293B;
+            color: white;
+        }
+        
+        #about h2 {
+            color: #60A5FA;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        #about h3 {
+            color: #93C5FD;
+            margin-top: 20px;
+        }
+        
+        #about ul {
+            margin-left: 20px;
+        }
+        
+        #contact {
+            background-color: #334155;
+            color: white;
+            padding: 80px 100px;
+        }
+        
+        .contact-container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        #contact h2 {
+            color: #60A5FA;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-text {
+            color: #D1D5DB;
+            margin-bottom: 30px;
+        }
+        
+        .contact-details {
+            line-height: 2.2;
+            font-size: 18px;
+        }
+        
+        button a {
+            text-decoration: none;
+        }
+        
+        .link {
+            color: rgb(15, 147, 142);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="parent">
+        <a href="#" class="logo"><img src="img.jpg" alt="logo" class="img"></a>
+        <ul>
+            <li> <a href="#1"> Home</a> </li>
+            <li> <a href="#about"> About</a> </li>
+            <li> <a href="#contact"> contact</a> </li>
+        </ul>
+        <button>My Portfolio</button>
+    </header>
+    <section class="home-content" id="1">
+
+
+        <div class="home">
+            <h1>Hi, I'm Lav kush</h1>
+            <img src="lav.png" alt="photo" class="img2">
+
+            <h3>B.Tech CSD student & Web Developer</h3>
+            <p>I am a B.Tech Student passionate about Web Developer.<br> I enjoy building responsive websites and learning new technologies.
+            </p>
+            <button><a href="../resume/index.html" target="_blank">View Resume</a></button>
+            <!-- <button>Hire Me</button> -->
+        </div>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm <strong>Lavkush Yadav</strong>, a B.Tech student in Computer Science and Design (CSD) at RR Group of Institutes, Lucknow.<br> I am passionate about Web Development, Java Programming, and Problem Solving.
+            </p>
+
+            <h3>Education</h3>
+            <p>
+                B.Tech (Computer Science and Design)<br> RR Group of Institutes, Lucknow<br>
+            </p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C Programming</li>
+
+            </ul>
+
+            <h3>Strengths</h3>
+            <ul>
+                <li>Problem Solving</li>
+
+                <li>Teamwork</li>
+                <li>Self-Motivated</li>
+            </ul>
+
+            <h3>Interests</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>App Development</li>
+
+            </ul>
+
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+
+                <h2>Contact Me</h2>
+
+                <p class="contact-text">
+                    Feel free to reach out for internships, projects, or collaboration opportunities.
+                </p>
+
+                <div class="contact-details">
+                    <p><strong>Name:</strong> Lavkush Yadav</p>
+                    <p><strong>Location:</strong> Lucknow, Uttar Pradesh</p>
+                    <p><strong>Email:</strong><a href="" class="link">lavkush904487@gmail.com</a> </p>
+                    <p><strong>GitHub:</strong><a href="" class="link">github.com/ lavkush9044</a></p>
+                    <p><strong>LinkedIn:</strong><a href="" class="link">https://www.linkedin.com/in/lavkush-yadav-93750b329/ </a></p>
+                </div>
+
+            </div>
+        </section>
+
+</body>
+
+</html>
